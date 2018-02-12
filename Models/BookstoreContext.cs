@@ -12,13 +12,6 @@ namespace Fisher.Bookstore.Api.Models{
              public DbSet<Book> Books {get;set; }
              public DbSet<Author> Authors {get;set; }
 
-        internal object GetBooks()
-        {
-            throw new NotImplementedException();
-        }
-        internal object GetAuthors()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
